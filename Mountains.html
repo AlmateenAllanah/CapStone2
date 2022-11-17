@@ -5,44 +5,94 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Bootstrap demo</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
-    <style>
-      body {
-        background-color: darkgreen;
-      }
-    </style>
-    <nav class="navbar navbar-expand-lg bg-dark">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#">National Park</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Link</a>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Dropdown
-                </a>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">Action</a></li>
-                  <li><a class="dropdown-item" href="#">Another action</a></li>
-                  <li><hr class="dropdown-divider"></li>
-                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+  </head>
+  <body>
+
+    <header>
+        <nav class="navbar navbar-expand-lg bg-light">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="index.html">Enjoy the Outdoors!</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link" href="nationalparks.html">National Parks</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="mountains.html">Mountain Info</a>
+                  </li>
                 </ul>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link disabled">Disabled</a>
-              </li>
+                
+              </div>
+            </div>
+          </nav>
+    </header>
+
+    <main>
+        <div class="dropdown">
+            <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Dropdown button
+            </button>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Mt. Washington</a></li>
+              <li><a class="dropdown-item" href="#">Mt. Adam</a></li>
+              <li><a class="dropdown-item" href="#">Mt. Jefferson</a></li>
+              <li><a class="dropdown-item" href="#">Mt. Monroe</a></li>
+              <li><a class="dropdown-item" href="#">Mt. Madison</a></li>
+              <li><a class="dropdown-item" href="#">Mt. Lafayette</a></li>
+              <li><a class="dropdown-item" href="#">Mt. South Twin</a></li>
+              <li><a class="dropdown-item" href="#">Mt. Carter Dome</a></li>
+              <li><a class="dropdown-item" href="#">Mt. Moosilauke</a></li>
+              <li><a class="dropdown-item" href="#">Mt. Eisenhower</a></li>
+              <li><a class="dropdown-item" href="#">Mt. North Twin</a></li>
+              <li><a class="dropdown-item" href="#">Mt. Carrigain</a></li>
+              <li><a class="dropdown-item" href="#">Mt. Bond</a></li>
+              <li><a class="dropdown-item" href="#">Mt. Middle Carter</a></li>
+              <li><a class="dropdown-item" href="#">Mt. West Bond</a></li>
+              <li><a class="dropdown-item" href="#">Mt. Garfield</a></li>
+              <li><a class="dropdown-item" href="#">Mt. Liberty</a></li>
+              <li><a class="dropdown-item" href="#">Mt. South Carter</a></li>
+              <li><a class="dropdown-item" href="#">Wildcat Mountain</a></li>
+              <li><a class="dropdown-item" href="#">Mt. Hancock</a></li>
+              <li><a class="dropdown-item" href="#">South Kinsman</a></li>
+              <li><a class="dropdown-item" href="#">Mt. Field</a></li>
+              <li><a class="dropdown-item" href="#">Mt. Osceola</a></li>
+              <li><a class="dropdown-item" href="#">Mt. Flume</a></li>
+              <li><a class="dropdown-item" href="#">South Hancock</a></li>
+              <li><a class="dropdown-item" href="#">Mt. Pierce</a></li>
+              <li><a class="dropdown-item" href="#">North Kinsman</a></li>
+              <li><a class="dropdown-item" href="#">Mt. Willey</a></li>
+              <li><a class="dropdown-item" href="#">Bondcliff</a></li>
+              <li><a class="dropdown-item" href="#">North Tripyramid</a></li>
+              <li><a class="dropdown-item" href="#">Mt. Cabot</a></li>
+              <li><a class="dropdown-item" href="#">East Osceola</a></li>
+              <li><a class="dropdown-item" href="#">Middle Tripyramid</a></li>
+              <li><a class="dropdown-item" href="#">Cannon Mountain</a></li>
+              <li><a class="dropdown-item" href="#">Wildcat D</a></li>
+              <li><a class="dropdown-item" href="#">Mt. Hale</a></li>
+              <li><a class="dropdown-item" href="#">Mt. Jackson</a></li>
+              <li><a class="dropdown-item" href="#">Mt. Tom</a></li>
+              <li><a class="dropdown-item" href="#">Mt. Moriah</a></li>
+              <li><a class="dropdown-item" href="#">Mt. Passaconaway</a></li>
+              <li><a class="dropdown-item" href="#">Owl's Head</a></li>
+              <li><a class="dropdown-item" href="#">Galehead Mountain</a></li>
+              <li><a class="dropdown-item" href="#">Mt. Whiteface</a></li>
+              <li><a class="dropdown-item" href="#">Mt. Waumbek</a></li>
+              <li><a class="dropdown-item" href="#">Mt. Isolation</a></li>
+              <li><a class="dropdown-item" href="#">Mt. Tecumesh</a></li>
             </ul>
-            <form class="d-flex" role="search">
-              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-            </form>
           </div>
-        </div>
-      </nav>
-</head>
+        
+        
+        <h1>Mountain Info</h1>
+    </main>
+
+    <footer>
+        
+    </footer>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+  </body>
+</html>
